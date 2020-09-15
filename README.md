@@ -1,6 +1,6 @@
 # Red Hat Helm Charts
 
-## Updated again * 5
+## Updated again * 7
 
 This repository contains the charts are populated out-of-the-box in the OpenShift Developer Catalog
 
