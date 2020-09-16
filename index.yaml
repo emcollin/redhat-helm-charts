@@ -3,7 +3,7 @@ entries:
   ibm-cpq-prod:
   - apiVersion: v2
     appVersion: 10.0.0.10
-    created: "2020-09-16T09:43:42.067825713-07:00"
+    created: "2020-09-16T09:45:43.133801048-07:00"
     description: |-
       IBM Sterling Configure, Price, Quote (CPQ) solution enables you to quickly configure, price, quote and order the right products and services.
       To sell competitively in today’s multichannel environment, organizations need a way to easily manage product and service configuration and pricing rules that allow prospects, customers, sales staff, call center representatives and Business Partners to quickly find, configure and order the right products and services.
@@ -44,7 +44,7 @@ entries:
     version: 3.1.0
   - apiVersion: v2
     appVersion: 10.0.0.6
-    created: "2020-09-16T09:43:42.008611106-07:00"
+    created: "2020-09-16T09:45:43.021731634-07:00"
     description: |-
       IBM Sterling Configure, Price, Quote (CPQ) solution enables you to quickly configure, price, quote and order the right products and services.\n
       To sell competitively in today’s multichannel environment, organizations need a way to easily manage product and service configuration and pricing rules that allow prospects, customers, sales staff, call center representatives and Business Partners to quickly find, configure and order the right products and services.\n
@@ -86,7 +86,7 @@ entries:
   ibm-object-storage-plugin:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-09-16T09:43:42.073000734-07:00"
+    created: "2020-09-16T09:45:43.139220422-07:00"
     description: |
       Chart for deploying ibmcloud object storage plugin.
       IBM Cloud Object Storage is persistent, highly available storage
@@ -121,7 +121,7 @@ entries:
   ibm-oms-ent-prod:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-09-16T09:43:42.110925679-07:00"
+    created: "2020-09-16T09:45:43.220926897-07:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -159,7 +159,7 @@ entries:
   ibm-oms-pro-prod:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-09-16T09:43:42.142223307-07:00"
+    created: "2020-09-16T09:45:43.266200787-07:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -197,7 +197,7 @@ entries:
   ibm-operator-catalog-enablement:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-09-16T09:43:42.145708784-07:00"
+    created: "2020-09-16T09:45:43.269910267-07:00"
     description: |
       IBM Operator Catalog enablement deploys custom CatalogSources for operators
       available to deploy and maintain IBM products.  The operators are publically
@@ -230,7 +230,37 @@ entries:
   ibm-spectrum-protect-plus-prod:
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-16T09:43:42.254678049-07:00"
+    created: "2020-09-16T09:45:43.472397112-07:00"
+    description: |-
+      IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
+
+      Kubernetes Backup Support is a feature of IBM Spectrum Protect Plus that extends data protection to containers in Kubernetes clusters. Kubernetes Backup Support protects persistent volumes that are attached to containers in Kubernetes clusters.
+
+      Documentation
+      For additional details regarding install parameters check the Kubernetes Backup Support Chart Readme at https://ibm.biz/BdquzX.
+
+      License
+      By installing this product you accept the following license terms: https://ibm.biz/BdquzE.
+    digest: ca19b826bd4e652a2a002b4e916e4adbdd85af34406e8ade49238098932f93b6
+    home: https://www.ibm.com/us-en/marketplace/ibm-spectrum-protect-plus
+    icon: https://www.ibm.com/cloud-computing/scalable-icon.svg
+    keywords:
+    - Commercial
+    - Storage
+    - Operations
+    - amd64
+    - RHOCP
+    - Other
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - name: IBM
+    name: ibm-spectrum-protect-plus-prod
+    urls:
+    - https://raw.githubusercontent.com/emcollin/redhat-helm-charts/master/charts/ibm-spectrum-protect-plus-prod-1.1.0-dev-20200916B.tgz
+    version: 1.1.0-dev-20200916B
+  - apiVersion: v2
+    appVersion: 10.1.7
+    created: "2020-09-16T09:45:43.450177631-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -260,7 +290,7 @@ entries:
     version: 1.1.0-dev-20200916A
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-16T09:43:42.21684361-07:00"
+    created: "2020-09-16T09:45:43.384874316-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -290,7 +320,7 @@ entries:
     version: 1.1.0-dev-20200915D
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-16T09:43:42.197003608-07:00"
+    created: "2020-09-16T09:45:43.361794709-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -320,7 +350,7 @@ entries:
     version: 1.1.0-dev-20200913D
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-16T09:43:42.169668709-07:00"
+    created: "2020-09-16T09:45:43.314395207-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -351,7 +381,7 @@ entries:
   nodejs-ex-k:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-16T09:43:42.257395262-07:00"
+    created: "2020-09-16T09:45:43.476150077-07:00"
     description: A Helm chart for Kubernetes
     digest: 9f8eca455f8379baddd6ab61bd5517373514bb99bedbbddffb98ad88ac9841cc
     name: nodejs-ex-k
@@ -361,7 +391,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-16T09:43:42.256105289-07:00"
+    created: "2020-09-16T09:45:43.474401352-07:00"
     description: A Helm chart for Kubernetes
     digest: 64b36fee719567e2aae8cb6186ba02a56dc62a90df71af7f90cc1d9d2cd1fb25
     name: nodejs-ex-k
@@ -369,4 +399,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/emcollin/redhat-helm-charts/master/charts/nodejs-ex-k-0.1.1.tgz
     version: 0.1.1
-generated: "2020-09-16T09:43:41.95415461-07:00"
+generated: "2020-09-16T09:45:42.932946414-07:00"
