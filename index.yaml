@@ -3,7 +3,7 @@ entries:
   ibm-cpq-prod:
   - apiVersion: v2
     appVersion: 10.0.0.10
-    created: "2020-09-18T02:12:53.105664259-07:00"
+    created: "2020-09-18T08:12:14.707515832-07:00"
     description: |-
       IBM Sterling Configure, Price, Quote (CPQ) solution enables you to quickly configure, price, quote and order the right products and services.
       To sell competitively in today’s multichannel environment, organizations need a way to easily manage product and service configuration and pricing rules that allow prospects, customers, sales staff, call center representatives and Business Partners to quickly find, configure and order the right products and services.
@@ -44,7 +44,7 @@ entries:
     version: 3.1.0
   - apiVersion: v2
     appVersion: 10.0.0.6
-    created: "2020-09-18T02:12:53.031563275-07:00"
+    created: "2020-09-18T08:12:14.661070573-07:00"
     description: |-
       IBM Sterling Configure, Price, Quote (CPQ) solution enables you to quickly configure, price, quote and order the right products and services.\n
       To sell competitively in today’s multichannel environment, organizations need a way to easily manage product and service configuration and pricing rules that allow prospects, customers, sales staff, call center representatives and Business Partners to quickly find, configure and order the right products and services.\n
@@ -86,7 +86,7 @@ entries:
   ibm-object-storage-plugin:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-09-18T02:12:53.122958488-07:00"
+    created: "2020-09-18T08:12:14.71297342-07:00"
     description: |
       Chart for deploying ibmcloud object storage plugin.
       IBM Cloud Object Storage is persistent, highly available storage
@@ -121,7 +121,7 @@ entries:
   ibm-oms-ent-prod:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-09-18T02:12:53.174687641-07:00"
+    created: "2020-09-18T08:12:14.766499179-07:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -159,7 +159,7 @@ entries:
   ibm-oms-pro-prod:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-09-18T02:12:53.219922946-07:00"
+    created: "2020-09-18T08:12:14.810132479-07:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -197,7 +197,7 @@ entries:
   ibm-operator-catalog-enablement:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-09-18T02:12:53.224875017-07:00"
+    created: "2020-09-18T08:12:14.813636116-07:00"
     description: |
       IBM Operator Catalog enablement deploys custom CatalogSources for operators
       available to deploy and maintain IBM products.  The operators are publically
@@ -230,7 +230,37 @@ entries:
   ibm-spectrum-protect-plus-prod:
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-18T02:12:53.753165833-07:00"
+    created: "2020-09-18T08:12:15.462337279-07:00"
+    description: |-
+      IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
+
+      Kubernetes Backup Support is a feature of IBM Spectrum Protect Plus that extends data protection to containers in Kubernetes clusters. Kubernetes Backup Support protects persistent volumes that are attached to containers in Kubernetes clusters.
+
+      Documentation
+      For additional details regarding install parameters check the Kubernetes Backup Support Chart Readme at https://ibm.biz/BdquzX.
+
+      License
+      By installing this product you accept the following license terms: https://ibm.biz/BdquzE.
+    digest: 6776d03074f64418951ebbb73163c22e708eab91447effb10e1031b2c866226e
+    home: https://www.ibm.com/us-en/marketplace/ibm-spectrum-protect-plus
+    icon: https://www.ibm.com/cloud-computing/scalable-icon.svg
+    keywords:
+    - Commercial
+    - Storage
+    - Operations
+    - amd64
+    - RHOCP
+    - Other
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - name: IBM
+    name: ibm-spectrum-protect-plus-prod
+    urls:
+    - https://raw.githubusercontent.com/emcollin/redhat-helm-charts/master/charts/ibm-spectrum-protect-plus-prod-1.1.0-dev-20200918B.tgz
+    version: 1.1.0-dev-20200918B
+  - apiVersion: v2
+    appVersion: 10.1.7
+    created: "2020-09-18T08:12:15.405012919-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -260,7 +290,7 @@ entries:
     version: 1.1.0-dev-20200918A
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-18T02:12:53.704335783-07:00"
+    created: "2020-09-18T08:12:15.37261263-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -290,7 +320,7 @@ entries:
     version: 1.1.0-dev-20200917D
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-18T02:12:53.647378201-07:00"
+    created: "2020-09-18T08:12:15.333084082-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -320,7 +350,7 @@ entries:
     version: 1.1.0-dev-20200917C
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-18T02:12:53.601882644-07:00"
+    created: "2020-09-18T08:12:15.294208483-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -350,7 +380,7 @@ entries:
     version: 1.1.0-dev-20200917B
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-18T02:12:53.543991873-07:00"
+    created: "2020-09-18T08:12:15.228394737-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -380,7 +410,7 @@ entries:
     version: 1.1.0-dev-20200917A
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-18T02:12:53.472567734-07:00"
+    created: "2020-09-18T08:12:15.148323955-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -410,7 +440,7 @@ entries:
     version: 1.1.0-dev-20200916D
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-18T02:12:53.432214107-07:00"
+    created: "2020-09-18T08:12:15.099585187-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -440,7 +470,7 @@ entries:
     version: 1.1.0-dev-20200916C
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-18T02:12:53.380057064-07:00"
+    created: "2020-09-18T08:12:15.051343105-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -470,7 +500,7 @@ entries:
     version: 1.1.0-dev-20200916B
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-18T02:12:53.357717608-07:00"
+    created: "2020-09-18T08:12:14.964249413-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -500,7 +530,7 @@ entries:
     version: 1.1.0-dev-20200916A
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-18T02:12:53.32256745-07:00"
+    created: "2020-09-18T08:12:14.884847681-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -530,7 +560,7 @@ entries:
     version: 1.1.0-dev-20200915D
   - apiVersion: v2
     appVersion: 10.1.7
-    created: "2020-09-18T02:12:53.262581582-07:00"
+    created: "2020-09-18T08:12:14.864078228-07:00"
     description: |-
       IBM Spectrum Protect Plus is a data protection and availability solution for virtual environments and database applications that can be rapidly deployed to protect your environment.
 
@@ -561,7 +591,7 @@ entries:
   nodejs-ex-k:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-18T02:12:53.765969533-07:00"
+    created: "2020-09-18T08:12:15.492726143-07:00"
     description: A Helm chart for Kubernetes
     digest: 9f8eca455f8379baddd6ab61bd5517373514bb99bedbbddffb98ad88ac9841cc
     name: nodejs-ex-k
@@ -571,7 +601,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-18T02:12:53.76384995-07:00"
+    created: "2020-09-18T08:12:15.469931404-07:00"
     description: A Helm chart for Kubernetes
     digest: 64b36fee719567e2aae8cb6186ba02a56dc62a90df71af7f90cc1d9d2cd1fb25
     name: nodejs-ex-k
@@ -579,4 +609,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/emcollin/redhat-helm-charts/master/charts/nodejs-ex-k-0.1.1.tgz
     version: 0.1.1
-generated: "2020-09-18T02:12:52.921478117-07:00"
+generated: "2020-09-18T08:12:14.573830701-07:00"
